@@ -4,7 +4,7 @@ if ('serviceWorker' in navigator) {
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
         var CACHE_NAME = 'my-site-cache-v1';
         var urlsToCache = [
-            '/index.html',
+            '/index.html'
         ];
 
         self.addEventListener('install', function(event) {
